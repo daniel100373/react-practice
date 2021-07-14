@@ -1,0 +1,101 @@
+.container {
+    height: 50vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-image: url("../components/image/rectangle.png");
+    background-size: cover;
+    height: 100%;
+    width: 95vw;
+    left: 87vw;
+}
+.menu span {
+    position: relative;
+    left: 7vw;
+    bottom: 2vw;
+    writing-mode: vertical-lr;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 900;
+}
+.arrow {
+    position: relative;
+    width: 40px;
+    border-radius: 50%;
+    left: 5vw;
+    top: 4vw;
+}
+.arrow:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.market {
+    opacity: 0;
+    padding: 2rem;
+    position: relative;
+    left: 15vw;
+    height: 30vw;
+}
+.next {
+    position: relative;
+    left: 18vw;
+    bottom: 10vw;
+}
+
+.slideOut-enter-active {
+    left: 5vw;
+    transition: 1000ms;
+}
+.slideOut-enter-done {
+    left: 5vw;
+    animation-fill-mode: forwards;
+}
+
+.slideOut-exit-done {
+    left: 5vw;
+}
+
+.show1-enter-active {
+    opacity: 1;
+    transition: 1000ms;
+}
+.show1-enter-done {
+    opacity: 1;
+    transition: 1000ms;
+    animation-fill-mode: forwards;
+}
+.show1-exit-done {
+    opacity: 1;
+}
+
+.show2-enter-active {
+    opacity: 1;
+    transition: 1000ms;
+}
+.show2-enter-done {
+    opacity: 1;
+    transition: 1000ms;
+    animation-fill-mode: forwards;
+}
+.show2-exit-done {
+    opacity: 1;
+}
+.show3-enter-active {
+    opacity: 1;
+    transition: 1000ms;
+}
+.show3-enter-done {
+    opacity: 1;
+    transition: 1000ms;
+    animation-fill-mode: forwards;
+}
+.show3-exit-done {
+    opacity: 1;
+}

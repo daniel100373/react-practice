@@ -1,0 +1,42 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.blank {
+    flex-grow: 1;
+}
+.navLogo {
+    width: 20vw;
+}
+.navText {
+    color: #63a596;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+}
+.navText span {
+    padding: 1rem;
+}
+.navText span:hover {
+    cursor: pointer;
+}
+.navFind {
+    display: inline-flex;
+    align-items: center;
+    width: 180px;
+    height: 24px;
+    margin: 0px 25px;
+    background-position: center;
+    background-size: cover;
+}
+.navFind input {
+    position: relative;
+    left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 2px;
+    width: 100px;
+}
